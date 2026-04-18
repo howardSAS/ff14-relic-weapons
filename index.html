@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+    <meta name="referrer" content="no-referrer-when-downgrade">
     <title>FF14 肝武 (Relic Weapons) 彙整</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"
+            crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
         body {
@@ -22,7 +25,6 @@
 <body class="min-h-screen p-4 md:p-8">
 
     <div class="max-w-6xl mx-auto space-y-8">
-        
         <header class="text-center space-y-4">
             <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-600">
                 <i data-lucide="crossed-swords" class="inline-block w-10 h-10 mr-2 text-yellow-500"></i>
@@ -37,7 +39,6 @@
                 <div class="p-5 flex-grow">
                     <h3 class="text-2xl font-bold text-yellow-400 mb-4">【2.0】古武</h3>
                     <p class="text-sm text-yellow-500/80 mb-4 tracking-wider uppercase font-semibold">Zodiac Weapons</p>
-                    
                     <ul class="space-y-3 text-slate-300">
                         <li class="flex items-start">
                             <i data-lucide="scroll" class="w-5 h-5 mr-3 text-slate-400 shrink-0 mt-0.5"></i>
@@ -63,7 +64,7 @@
                     </ul>
                 </div>
                 <div class="bg-slate-800/80 p-4 border-t border-slate-700">
-                    <a href="https://youtu.be/wGOEPHz2rGw?si=9WMulbbOQo3U6-dR" target="_blank" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-yellow-600 text-white rounded-lg transition-colors">
+                    <a href="https://youtu.be/wGOEPHz2rGw?si=9WMulbbOQo3U6-dR" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-yellow-600 text-white rounded-lg transition-colors">
                         <i data-lucide="youtube" class="w-5 h-5 mr-2"></i>
                         全階段武器展示
                     </a>
@@ -74,7 +75,6 @@
                 <div class="p-5 flex-grow">
                     <h3 class="text-2xl font-bold text-blue-400 mb-4">【3.0】魂武</h3>
                     <p class="text-sm text-blue-500/80 mb-4 tracking-wider uppercase font-semibold">Anima Weapons</p>
-                    
                     <ul class="space-y-3 text-slate-300">
                         <li class="flex items-start">
                             <i data-lucide="scroll" class="w-5 h-5 mr-3 text-slate-400 shrink-0 mt-0.5"></i>
@@ -100,7 +100,7 @@
                     </ul>
                 </div>
                 <div class="bg-slate-800/80 p-4 border-t border-slate-700">
-                    <a href="https://youtu.be/AfbQMMVfFu4?si=MkU-JM9f5Ot_hzj_" target="_blank" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-blue-600 text-white rounded-lg transition-colors">
+                    <a href="https://youtu.be/AfbQMMVfFu4?si=MkU-JM9f5Ot_hzj_" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-blue-600 text-white rounded-lg transition-colors">
                         <i data-lucide="youtube" class="w-5 h-5 mr-2"></i>
                         全階段武器展示
                     </a>
@@ -111,7 +111,6 @@
                 <div class="p-5 flex-grow">
                     <h3 class="text-2xl font-bold text-orange-400 mb-4">【4.0】優雷卡</h3>
                     <p class="text-sm text-orange-500/80 mb-4 tracking-wider uppercase font-semibold">Eureka Weapons</p>
-                    
                     <ul class="space-y-3 text-slate-300">
                         <li class="flex items-start">
                             <i data-lucide="scroll" class="w-5 h-5 mr-3 text-slate-400 shrink-0 mt-0.5"></i>
@@ -137,10 +136,10 @@
                     </ul>
                 </div>
                 <div class="bg-slate-800/80 p-4 border-t border-slate-700 flex gap-2">
-                    <a href="https://youtu.be/ddSph13LecE?si=YAxW5npf72nHEUWt" target="_blank" class="flex-1 flex items-center justify-center py-2 px-2 bg-slate-700 hover:bg-orange-600 text-white text-sm rounded-lg transition-colors" title="武器影片">
+                    <a href="https://youtu.be/ddSph13LecE?si=YAxW5npf72nHEUWt" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center py-2 px-2 bg-slate-700 hover:bg-orange-600 text-white text-sm rounded-lg transition-colors" title="武器影片">
                         <i data-lucide="youtube" class="w-4 h-4 mr-1"></i> 武器全階段展示
                     </a>
-                    <a href="https://youtu.be/BPI8WQfmqy0?si=y06ZXJ7mPhVFwGJf" target="_blank" class="flex-1 flex items-center justify-center py-2 px-2 bg-slate-700 hover:bg-orange-600 text-white text-sm rounded-lg transition-colors" title="優雷卡裝甲">
+                    <a href="https://youtu.be/BPI8WQfmqy0?si=y06ZXJ7mPhVFwGJf" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center py-2 px-2 bg-slate-700 hover:bg-orange-600 text-white text-sm rounded-lg transition-colors" title="優雷卡裝甲">
                         <i data-lucide="youtube" class="w-4 h-4 mr-1"></i> 發光裝甲展示
                     </a>
                 </div>
@@ -150,7 +149,6 @@
                 <div class="p-5 flex-grow">
                     <h3 class="text-2xl font-bold text-purple-400 mb-4">【5.0】義軍武器</h3>
                     <p class="text-sm text-purple-500/80 mb-4 tracking-wider uppercase font-semibold">Resistance Weapons</p>
-                    
                     <ul class="space-y-3 text-slate-300">
                         <li class="flex items-start">
                             <i data-lucide="scroll" class="w-5 h-5 mr-3 text-slate-400 shrink-0 mt-0.5"></i>
@@ -177,7 +175,7 @@
                     </ul>
                 </div>
                 <div class="bg-slate-800/80 p-4 border-t border-slate-700">
-                    <a href="https://youtu.be/gOAUemiJ2Ic?si=O2IlGdbU6QV323FQ" target="_blank" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-purple-600 text-white rounded-lg transition-colors">
+                    <a href="https://youtu.be/gOAUemiJ2Ic?si=O2IlGdbU6QV323FQ" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-purple-600 text-white rounded-lg transition-colors">
                         <i data-lucide="youtube" class="w-5 h-5 mr-2"></i>
                         全階段武器展示
                     </a>
@@ -188,7 +186,6 @@
                 <div class="p-5 flex-grow">
                     <h3 class="text-2xl font-bold text-emerald-400 mb-4">【6.0】曼德維爾武器</h3>
                     <p class="text-sm text-emerald-500/80 mb-4 tracking-wider uppercase font-semibold">Manderville Weapons</p>
-                    
                     <ul class="space-y-3 text-slate-300">
                         <li class="flex items-start">
                             <i data-lucide="scroll" class="w-5 h-5 mr-3 text-slate-400 shrink-0 mt-0.5"></i>
@@ -215,7 +212,7 @@
                     </ul>
                 </div>
                 <div class="bg-slate-800/80 p-4 border-t border-slate-700">
-                    <a href="https://youtu.be/8e9Uh9_7St0?si=KE4yUlcZohzWF95w" target="_blank" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-emerald-600 text-white rounded-lg transition-colors">
+                    <a href="https://youtu.be/8e9Uh9_7St0?si=KE4yUlcZohzWF95w" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-emerald-600 text-white rounded-lg transition-colors">
                         <i data-lucide="youtube" class="w-5 h-5 mr-2"></i>
                         全階段武器展示
                     </a>
@@ -226,7 +223,6 @@
                 <div class="p-5 flex-grow">
                     <h3 class="text-2xl font-bold text-cyan-400 mb-4">【7.0】幻武</h3>
                     <p class="text-sm text-cyan-500/80 mb-4 tracking-wider uppercase font-semibold">Phantom Weapons / 7.41</p>
-                    
                     <div class="flex items-center justify-center h-24 mt-4 bg-slate-900/50 rounded-lg border border-slate-700 border-dashed">
                         <span class="text-slate-500 flex items-center">
                             <i data-lucide="clock" class="w-5 h-5 mr-2"></i>
@@ -235,7 +231,7 @@
                     </div>
                 </div>
                 <div class="bg-slate-800/80 p-4 border-t border-slate-700">
-                    <a href="https://youtu.be/-IldXJrV0N0?si=UmvQSTwSuY0FpDlX" target="_blank" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-cyan-600 text-white rounded-lg transition-colors">
+                    <a href="https://youtu.be/-IldXJrV0N0?si=UmvQSTwSuY0FpDlX" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full py-2 px-4 bg-slate-700 hover:bg-cyan-600 text-white rounded-lg transition-colors">
                         <i data-lucide="youtube" class="w-5 h-5 mr-2"></i>
                         現階段外觀預覽(7.41)
                     </a>
@@ -243,7 +239,7 @@
             </div>
 
         </section>
-        
+
         <section class="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 backdrop-blur-sm shadow-lg">
             <h2 class="text-xl font-bold mb-4 flex items-center text-rose-400">
                 <i data-lucide="flame" class="w-6 h-6 mr-2"></i>
